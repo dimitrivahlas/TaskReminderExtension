@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+      font-size: 16px;
+    }
+    .date-group {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      background: #fff;
+    }
+    .date-group h4 {
+      margin: 0 0 10px 0;
+      cursor: pointer;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+    }
+    li.completed label {
+      text-decoration: line-through;
+      color: grey;
+    }
+    label {
+      flex-grow: 1;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Task Tracker</h2>
+  <div id="tasksContainer"></div>
+  
+  <script src="tasks.js"></script>
+</body>
+</html>

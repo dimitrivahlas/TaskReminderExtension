@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Reminder Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+      font-size: 16px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Settings</h2>
+  <p>Set notification frequency (in minutes):</p>
+  <input type="number" id="frequencyInput" min="1" placeholder="Enter minutes" aria-label="Notification Frequency">
+  <button id="saveFrequencyBtn">Save Frequency</button>
+  <span id="settingsConfirmation" style="color: green; display: none;">Settings saved!</span>
+  
+  <script src="settings.js"></script>
+</body>
+</html>

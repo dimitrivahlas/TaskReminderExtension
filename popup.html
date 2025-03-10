@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Reminder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      width: 320px;
+      font-size: 16px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h2, h3 {
+      margin: 0 0 10px 0;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    #confirmation {
+      color: green;
+      margin-top: 5px;
+      display: none;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+    }
+    li.completed label {
+      text-decoration: line-through;
+      color: grey;
+    }
+    label {
+      flex-grow: 1;
+      margin-left: 8px;
+    }
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+    }
+    .small-btn {
+      padding: 8px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Task Reminder</h2>
+  <p id="currentDate"></p>
+  <p>Enter a new task below:</p>
+  <input type="text" id="taskInput" placeholder="New Task" aria-label="New Task">
+  <button id="addTaskBtn">Add New Task</button>
+  <span id="confirmation"></span>
+  <ul id="todayTasks"></ul>
+  <div class="button-group">
+    <button id="triggerNotificationBtn" class="small-btn">Trigger Notification</button>
+    <button id="viewTasksBtn" class="small-btn">View All Tasks</button>
+    <button id="settingsBtn" class="small-btn">Settings</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
