@@ -19,8 +19,7 @@ chrome.runtime.onInstalled.addListener(() => {
 // Schedule notifications based on provided frequency (in minutes)
 function scheduleNotifications(frequencyInMinutes) {
     chrome.alarms.clear("taskReminder", () => {
-        chrome.alarms.create("taskReminder", { periodInMinutes: 300});
-        //chrome.alarms.create("taskReminder", { periodInMinutes: frequencyInMinutes });
+        chrome.alarms.create("taskReminder", { periodInMinutes: frequencyInMinutes });
     });
 }
 

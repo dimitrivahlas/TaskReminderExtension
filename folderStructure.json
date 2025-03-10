@@ -1,0 +1,33 @@
+{
+    "name": "TaskReminderExtension",
+    "subfolders": [
+      {
+        "name": "assets",
+        "files": [
+          { "name": "icon.png", "type": "image" }
+        ]
+      },
+      {
+        "name": "scripts",
+        "files": [
+          { "name": "background.js", "type": "javascript" },
+          { "name": "popup.js", "type": "javascript" },
+          { "name": "settings.js", "type": "javascript" },
+          { "name": "tasks.js", "type": "javascript" }
+        ]
+      },
+      {
+        "name": "pages",
+        "files": [
+          { "name": "popup.html", "type": "html" },
+          { "name": "settings.html", "type": "html" },
+          { "name": "tasks.html", "type": "html" }
+        ]
+      }
+    ],
+    "files": [
+      { "name": "manifest.json", "type": "json" },
+      { "name": "README.md", "type": "markdown" }
+    ]
+  }
+  
