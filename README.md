@@ -8,3 +8,8 @@ Help user productivity by sending a notification every n minutes which can be de
 
 folderStructure.json is just so we can see our folder structure and keep everything organized
 Potentially have an OFF or ON button that way user isnt getting notified when they don't want to be
+
+*/
+Maybe add a voice recognition feature similar to hey siri
+*/
+
