@@ -4,6 +4,7 @@ Help user productivity by sending a notification every n minutes which can be de
 ->User should be able to delete tasks
 ->User should be able to see their tasks in a small drop down menu
 ->Tasks should be stored in local storage and use a ->Date(toggle menu: tasks) format in order to properly order all tasks
+->Potentally turn into a voice activated bot similar to "Hey Siri" by Apple
 
 
 folderStructure.json is just so we can see our folder structure and keep everything organized

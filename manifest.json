@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Task Reminder Extension",
+    "name": "Tasker",
     "version": "1.1",
     "description": "A simple and accessible task reminder that notifies you at set intervals.",
     "permissions": [
